@@ -56,7 +56,7 @@ Trước khi bắt đầu một job, tìm và đọc các tài liệu **có th�
 3. **Tài liệu Pharmology trong Google Drive được cấp quyền**, tra cứu theo tên: PHARMOLOGY PROFILE 2026; PHARMOLOGY CATALOGUE; Tổng quan thương hiệu Pharmology & MINEXIN; NAP - Content Guideline -Pharmology; PHARMOLOGY MKT PLAN [FINAL]; Mô tả_Thành phần_Tính chất - sản phẩm Pharmology; SEO Content Strategy Presentation; SEO Plan; Content Plan/keyword map và brief có liên quan.
 4. **Ảnh sản phẩm/ảnh mẫu được phép sử dụng**, gồm ảnh gốc người dùng cung cấp hoặc ảnh Drive đã xác minh. Phân biệt moodboard (định hướng) với file cuối đã duyệt (khóa nguyên vẹn).
 
-**Hạn chế truy cập:** GitHub KHÔNG tự đọc được Google Drive nếu môi trường đang chạy không có kết nối/quyền. Nếu thiếu nguồn bắt buộc, nêu cụ thể nguồn thiếu và dừng bước đòi hỏi tính xác thực (chèn logo, claim, sản phẩm) thay vì tự tưởng tượng. Không sao chép tài liệu MKT nội bộ vào repo công khai. Nội dung hai tài liệu nội bộ có thể xung đột: tuyệt đối không chuyển số đo, slogan, công dụng từ một bản draft thành claim đã xác minh; kiểm tra hồ sơ gốc và approval gần nhất. Xem `references/SOURCE_ROUTING.md`.
+**Hạn chế truy cập:** GitHub KHÔNG tự đọc được Google Drive nếu môi trường đang chạy không có kết nối/quyền. Nếu thiếu nguồn bắt buộc, nêu cụ thể nguồn thiếu và dừng bước đòi hỏi tính xác thực (chèn logo, claim, sản phẩm) thay vì tự tưởng tượng. Không sao chép tài liệu MKT nội bộ vào repo công khai. Nội dung hai tài liệu nội bộ có thể xung đột: tuyệt đối không chuyển số đo, slogan, công dụng từ một bản draft thành claim đã xác minh; kiểm tra hồ sơ gốc và approval gần nhất. Xem `references/SOURCE_ROUTING.md` và **`references/VISUAL_REFERENCE_2026-11-13.md` (4 ảnh mẫu do người dùng cung cấp, quy chuẩn tham chiếu hình ảnh)**. Các file tham chiếu mô tả chuẩn, không mặc định ảnh nhị phân có sẵn ở repo.
 
 ## 1. Định hướng nội dung
 - Chỉ dựa vào nội dung bài SEO được cung cấp và tài liệu Pharmology đã xác minh; diễn giải heading chính xác cho độc giả.
@@ -67,16 +67,16 @@ Trước khi bắt đầu một job, tìm và đọc các tài liệu **có th�
 - Không ép người mẫu vào mọi ảnh: có thể dùng macro, da thật, khoa học 3D, cấu trúc da, vật thể thật, thao tác chăm sóc; không lặp cùng gương mặt cho cả bộ.
 - Khi người dùng duyệt đúng ảnh mẫu về hành động/nhân vật/góc máy/bối cảnh, KHÔNG đổi chúng. Nếu chỉ có thumbnail/search preview, phải báo không có bản gốc độ phân giải cao; chỉ tái dựng cảnh tương tự khi được phép.
 
-## 2. Visual identity đã duyệt (07/11/2026)
+## 2. Visual identity — cập nhật đối chiếu 4 mẫu 13/11/2026
 **Màu nền:** trắng, xám sáng, xám bạc. **Màu chữ:** đen, charcoal. **Cấm** xanh lam/xanh pastel, vàng, hồng hoặc các màu brand khác cho nền, thanh nhấn, nhãn, chú thích, hình trang trí.
 - Cấm nền xanh và gradient xanh. **Không** ép người mẫu/vật thể thành trắng đen: giữ da/tóc/môi/mô da/nước/kính/mỹ phẩm phi nhãn hiệu ở màu chân thực hoặc màu khoa học hợp lý.
 - Phong cách **editorial skincare cao cấp**, chân thực, texture da thật, ánh sáng mềm; phản chiếu Luxury Glass dịu khoảng 20% mức thị giác ở mặt bàn/viền/chân vật thể. Không làm mờ chữ, da, mặt, logo. Không chrome, bóng nhựa, da quá mịn hoặc cảm giác ảnh AI giả.
-- Moodboard nhiều ô chỉ là **tham khảo tone**; tuyệt đối không xuất thành lưới 6 ô.
+- Moodboard nhiều ô chỉ là **tham khảo tone**; tuyệt đối không xuất thành lưới 6 ô. **Tham khảo bốn ảnh cụ thể** trong `references/VISUAL_REFERENCE_2026-11-13.md`: (a) Gel/Lotion/Cream so sánh texture; (b) Da khô nên dùng gì — chân dung và chữ; (c) Cách dùng đúng — hàng thông tin và người mẫu khác nhau; (d) Lỗ chân lông lộ rõ vì sao — sơ đồ da/zoom; mỗi layout chỉ dùng khi đúng nội dung. **Không mặc định sao chép đường kẻ xanh ở ảnh mẫu.**
 
 ## 3. Logo gốc PHARMOLOGY®
 - Đường dẫn bắt buộc (tương đối từ file SKILL.md này): `../../assets/pharmology-logo-original.png`. **Kiểm tra file tồn tại, đọc được và logo có ký hiệu ® trước mỗi lần xuất.**
 - Chỉ **composite trực tiếp file PNG gốc** sau bước tạo nền; tuyệt đối không prompt AI vẽ, viết lại hoặc chỉnh sửa logo; xóa sạch logo giả từ ảnh AI. Cấm logo SVR/thương hiệu khác.
-- Ảnh 1800×1200: phần nét chữ logo rộng **240–280 px**; lề trái và trên **45–70 px**; ưu tiên góc trên bên trái. Ảnh 900×600: phần nét chữ logo rộng **120–140 px**.
+- Ảnh 1800×1200: phần nét chữ logo rộng **240–280 px**; lề cách mép **45–70 px**; **ưu tiên góc trên bên phải như 4 ảnh tham chiếu mới nhất**, miễn không che chủ thể/tiêu đề; có thể đổi vị trí theo yêu cầu riêng của người dùng. Ảnh 900×600: phần nét chữ logo rộng **120–140 px**.
 - Giữ nguyên tỷ lệ, ®, pixel/độ sắc nét, không làm mờ hoặc kéo méo; logo là chữ ký nhỏ, không phải headline.
 - **Thiếu logo PNG gốc thì không bàn giao ảnh có logo giả.** Yêu cầu cấp file gốc hoặc chỉ xuất nền chưa chèn logo và nêu rõ chưa hoàn thiện.
 
